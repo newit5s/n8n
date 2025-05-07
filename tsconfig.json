@@ -1,4 +1,6 @@
 {
-	"extends": "./packages/@n8n/typescript-config/tsconfig.common.json",
-	"exclude": ["**/dist/**/*", "**/node_modules/**/*", "cypress"]
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "noEmit": true
+  }
 }
